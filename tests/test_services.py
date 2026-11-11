@@ -6,7 +6,7 @@ from app.services.retrieval import retrieve
 def memory_db():
     db = sqlite3.connect(":memory:")
     db.row_factory = sqlite3.Row
-    db.executescript("CREATE TABLE documents(id INTEGER PRIMARY KEY, filename TEXT, content TEXT); CREATE TABLE chunks(id INTEGER PRIMARY KEY, document_id INTEGER, text TEXT, ordinal INTEGER);")
+    db.executescript("CREATE TABLE documents(id INTEGER PRIMARY KEY, filename TEXT, content TEXT, created_at TEXT DEFAULT CURRENT_TIMESTAMP); CREATE TABLE chunks(id INTEGER PRIMARY KEY, document_id INTEGER, text TEXT, ordinal INTEGER);")
     return db
 
 
