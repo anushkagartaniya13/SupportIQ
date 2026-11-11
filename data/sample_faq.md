@@ -11,3 +11,6 @@ Standard shipping usually takes 3 to 5 business days after dispatch. You will re
 
 ## Contact support
 Our support team is available Monday through Friday, 9:00 AM to 6:00 PM Eastern Time. Email help@example.com and include your account email and a short description of the issue. Never send passwords or full payment card numbers.
+
+## Can support reset or tell me my password?
+Support agents cannot set or share your password. Select Forgot password on the sign-in page and use the secure reset link sent to your account email. The link expires after 30 minutes.
